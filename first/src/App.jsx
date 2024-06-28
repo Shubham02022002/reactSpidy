@@ -1,4 +1,6 @@
+/* eslint-disable no-unused-vars */
 // import InlineCss from "./components/InlineCss/InlineCss";
+import ClassBasedComponent from "./components/ClassBasedComponents/ClassBasedIntro";
 import UseStateIntro from "./components/UseStateHook/UseStateIntro";
 // import Layout from "./components/Layout/Layout";
 const App = () => {
@@ -20,9 +22,15 @@ const App = () => {
 
       {/* UseStateIntro */}
 
-      <div>
+      {/* <div>
         <UseStateIntro />
-      </div>
+      </div> */}
+
+      {/* ClassBasedIntro */}
+
+      <ClassBasedComponent />
+
+
     </div>
   );
 };
