@@ -3,6 +3,7 @@
 import ClassBasedComponent from "./components/ClassBasedComponents/ClassBasedIntro";
 import UseStateIntro from "./components/UseStateHook/UseStateIntro";
 // import Layout from "./components/Layout/Layout";
+import PropsIntro from "./components/Props/PropsIntro";
 const App = () => {
   return (
     <div
@@ -28,9 +29,12 @@ const App = () => {
 
       {/* ClassBasedIntro */}
 
-      <ClassBasedComponent />
+      {/* <ClassBasedComponent /> */}
 
-
+      {/* Props in react */}
+      <div>
+        <PropsIntro />
+      </div>
     </div>
   );
 };
