@@ -4,6 +4,8 @@ import ClassBasedComponent from "./components/ClassBasedComponents/ClassBasedInt
 import UseStateIntro from "./components/UseStateHook/UseStateIntro";
 // import Layout from "./components/Layout/Layout";
 import PropsIntro from "./components/Props/PropsIntro";
+import MapIntro from "./components/Maps/MapIntro";
+
 const App = () => {
   return (
     <div
@@ -32,9 +34,12 @@ const App = () => {
       {/* <ClassBasedComponent /> */}
 
       {/* Props in react */}
-      <div>
+      {/* <div>
         <PropsIntro />
-      </div>
+      </div> */}
+
+      {/* Map  */}
+      <MapIntro/>
     </div>
   );
 };
