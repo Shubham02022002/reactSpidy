@@ -5,6 +5,7 @@ import UseStateIntro from "./components/UseStateHook/UseStateIntro";
 // import Layout from "./components/Layout/Layout";
 import PropsIntro from "./components/Props/PropsIntro";
 import MapIntro from "./components/Maps/MapIntro";
+import AssignmentMain from "./components/Assignment/AssignmentMain";
 
 const App = () => {
   return (
@@ -39,7 +40,10 @@ const App = () => {
       </div> */}
 
       {/* Map  */}
-      <MapIntro/>
+      {/* <MapIntro/> */}
+
+      {/* Assignments  */}
+      <AssignmentMain />
     </div>
   );
 };
