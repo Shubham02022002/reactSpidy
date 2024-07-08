@@ -13,8 +13,6 @@ const App = () => {
       style={{
         backgroundColor: "grey",
         color: "whitesmoke",
-        height: "100vh",
-        width: "100vw",
         padding: "5px",
         margin: "2px",
       }}
