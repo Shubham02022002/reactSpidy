@@ -11,6 +11,10 @@ import Task9 from "./Task9";
 import Task10 from "./Taks10";
 import Task11 from "./Task11";
 import Task35 from "./Task35";
+import Task34 from "./Task34"; 
+import Task33 from "./Task33";
+import Task32 from "./Task32";
+import Task31 from "./Task31";
 
 const AssignmentMain = () => {
   return (
@@ -26,8 +30,11 @@ const AssignmentMain = () => {
       {/* <Task9 /> */}
       {/* <Task10 /> */}
       {/* <Task11 /> */}
-
-      <Task35 />
+      <Task31 />
+      {/* <Task32 /> */}
+      {/* <Task33 /> */}
+      {/* <Task34 /> */}
+      {/* <Task35 /> */}
     </div>
   );
 };
