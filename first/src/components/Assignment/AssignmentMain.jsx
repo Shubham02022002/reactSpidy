@@ -15,6 +15,11 @@ import Task34 from "./Task34";
 import Task33 from "./Task33";
 import Task32 from "./Task32";
 import Task31 from "./Task31";
+import Task12 from "./Task12";
+import Task21 from "./Task21";
+import Task22 from "./Task22";
+import Task23 from "./Task23";
+import Task24 from "./Task24";
 
 const AssignmentMain = () => {
   return (
@@ -30,7 +35,12 @@ const AssignmentMain = () => {
       {/* <Task9 /> */}
       {/* <Task10 /> */}
       {/* <Task11 /> */}
-      <Task31 />
+      {/* <Task12/> */}
+      {/* <Task21/> */}
+      {/* <Task22/> */}
+      {/* <Task23/> */}
+      <Task24/>
+      {/* <Task31 /> */}
       {/* <Task32 /> */}
       {/* <Task33 /> */}
       {/* <Task34 /> */}
