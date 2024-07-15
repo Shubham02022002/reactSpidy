@@ -20,6 +20,10 @@ import Task21 from "./Task21";
 import Task22 from "./Task22";
 import Task23 from "./Task23";
 import Task24 from "./Task24";
+import Task25Child from "./Task25Child";
+import Task25 from "./Task25";
+import Task26 from "./Task26";
+import Task30 from "./Task30";
 
 const AssignmentMain = () => {
   return (
@@ -39,7 +43,10 @@ const AssignmentMain = () => {
       {/* <Task21/> */}
       {/* <Task22/> */}
       {/* <Task23/> */}
-      <Task24/>
+      {/* <Task24/> */}
+      {/* <Task25/> */}
+      {/* <Task26/> */}
+   
       {/* <Task31 /> */}
       {/* <Task32 /> */}
       {/* <Task33 /> */}
