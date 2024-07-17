@@ -6,7 +6,7 @@ import UseStateIntro from "./components/UseStateHook/UseStateIntro";
 import PropsIntro from "./components/Props/PropsIntro";
 import MapIntro from "./components/Maps/MapIntro";
 import AssignmentMain from "./components/Assignment/AssignmentMain";
-import EventsIntro from "./components/EventsHandling/EventsIntro"
+import EventIntro from "./components/synthaticEvents/EventIntro";
 
 const App = () => {
   return (
@@ -42,10 +42,13 @@ const App = () => {
       {/* <MapIntro/> */}
 
       {/* Assignments  */}
-      <AssignmentMain />
+      {/* <AssignmentMain /> */}
 
       {/* EventsHandling */}
       {/* <EventsIntro/> */}
+
+      {/* Synthatic Event  */}
+      <EventIntro/>
     </div>
   );
 };
