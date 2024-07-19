@@ -7,6 +7,7 @@ import PropsIntro from "./components/Props/PropsIntro";
 import MapIntro from "./components/Maps/MapIntro";
 import AssignmentMain from "./components/Assignment/AssignmentMain";
 import EventIntro from "./components/synthaticEvents/EventIntro";
+import HooksMain from "./components/Hooks/HooksMain";
 
 const App = () => {
   return (
@@ -48,7 +49,10 @@ const App = () => {
       {/* <EventsIntro/> */}
 
       {/* Synthatic Event  */}
-      <EventIntro/>
+      {/* <EventIntro/> */}
+
+      {/* More Hooks  */}
+      <HooksMain />
     </div>
   );
 };

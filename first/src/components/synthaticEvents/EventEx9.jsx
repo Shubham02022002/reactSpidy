@@ -39,6 +39,7 @@ const EventEx9 = () => {
           value={username}
           placeholder="username"
           onChange={handleChange}
+          required
           className="mt-1 mb-2 bg-black text-white rounded-md p-2"
         />
         <input
@@ -46,6 +47,7 @@ const EventEx9 = () => {
           name="password"
           value={password}
           placeholder="password"
+          required
           onChange={handleChange}
           className="mt-1 mb-2 bg-black text-white rounded-md p-2"
         />
@@ -59,15 +61,20 @@ const EventEx9 = () => {
         {state.list.length > 0 &&
           state.list.map((val, id) => {
             return (
-              <div key={id} className="w-[200px] border mx-2">
+              <div key={id} className="w-[200px] border mx-2 rounded-md">
                 <ul className="m-2">
                   <li>{val.id}</li>
                   <li>{val.username}</li>
                   <li>{val.password}</li>
-                  <button className="bg-white text-black rounded-sm ">
-                    Update
-                  </button>
-                  <button>Delete</button>
+
+                  <div className="flex justify-between">
+                    <button className="bg-green-700 text-white p-1 rounded-sm hover:bg-green-900">
+                      Update
+                    </button>
+                    <button className="bg-red-500 text-white p-1 rounded-sm hover:bg-red-400">
+                      Delete
+                    </button>
+                  </div>
                 </ul>
               </div>
             );

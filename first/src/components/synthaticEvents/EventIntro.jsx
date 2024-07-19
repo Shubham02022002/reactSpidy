@@ -6,6 +6,9 @@ import EventEx4 from './EventEx4'
 import EventEx7 from './EventEx7'
 import EventEx8 from './EventEx8'
 import EventEx9 from './EventEx9'
+import EventEx10 from './EventEx10'
+import EventEx11 from '../Hooks/UseRef'
+import UseRef from '../Hooks/UseRef'
 
 function EventIntro() {
   return (
@@ -16,7 +19,10 @@ function EventIntro() {
         {/* <EventEx4/> */}
         {/* <EventEx7/> */}
         {/* <EventEx8/> */}
-        <EventEx9/>
+        {/* <EventEx9/> */}
+        {/* <EventEx10/> */}
+        {/* <EventEx11/> */}
+        <UseRef/>
     </div>
   )
 }
