@@ -43,7 +43,7 @@ const App = () => {
       {/* <MapIntro/> */}
 
       {/* Assignments  */}
-      {/* <AssignmentMain /> */}
+      <AssignmentMain />
 
       {/* EventsHandling */}
       {/* <EventsIntro/> */}
@@ -52,7 +52,7 @@ const App = () => {
       {/* <EventIntro/> */}
 
       {/* More Hooks  */}
-      <HooksMain />
+      {/* <HooksMain /> */}
     </div>
   );
 };
