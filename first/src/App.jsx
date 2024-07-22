@@ -8,52 +8,58 @@ import MapIntro from "./components/Maps/MapIntro";
 import AssignmentMain from "./components/Assignment/AssignmentMain";
 import EventIntro from "./components/synthaticEvents/EventIntro";
 import HooksMain from "./components/Hooks/HooksMain";
+import ThemeContextProvider from "./components/Context/ThemeContextProvider";
+import AuthContextProvider from "./components/Context/AuthContextProvider";
 
 const App = () => {
   return (
-    <div
-      style={{
-        backgroundColor: "grey",
-        color: "whitesmoke",
-        padding: "5px",
-        margin: "2px",
-      }}
-    >
-      {/* <Layout /> */}
+    <AuthContextProvider>
+      <ThemeContextProvider>
+        <div
+          style={{
+            backgroundColor: "grey",
+            color: "whitesmoke",
+            padding: "5px",
+            margin: "2px",
+          }}
+        >
+          {/* <Layout /> */}
 
-      {/* how to write inline css */}
-      {/* <InlineCss /> */}
+          {/* how to write inline css */}
+          {/* <InlineCss /> */}
 
-      {/* UseStateIntro */}
+          {/* UseStateIntro */}
 
-      {/* <div>
+          {/* <div>
         <UseStateIntro />
       </div> */}
 
-      {/* ClassBasedIntro */}
+          {/* ClassBasedIntro */}
 
-      {/* <ClassBasedComponent /> */}
+          {/* <ClassBasedComponent /> */}
 
-      {/* Props in react */}
-      {/* <div>
+          {/* Props in react */}
+          {/* <div>
         <PropsIntro />
       </div> */}
 
-      {/* Map  */}
-      {/* <MapIntro/> */}
+          {/* Map  */}
+          {/* <MapIntro/> */}
 
-      {/* Assignments  */}
-      <AssignmentMain />
+          {/* Assignments  */}
+          <AssignmentMain />
 
-      {/* EventsHandling */}
-      {/* <EventsIntro/> */}
+          {/* EventsHandling */}
+          {/* <EventsIntro/> */}
 
-      {/* Synthatic Event  */}
-      {/* <EventIntro/> */}
+          {/* Synthatic Event  */}
+          {/* <EventIntro/> */}
 
-      {/* More Hooks  */}
-      {/* <HooksMain /> */}
-    </div>
+          {/* More Hooks  */}
+          {/* <HooksMain /> */}
+        </div>
+      </ThemeContextProvider>
+    </AuthContextProvider>
   );
 };
 

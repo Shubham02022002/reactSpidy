@@ -1,6 +1,6 @@
 const Task29Child = ({ isOpen, children, setIsOpen }) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col bg-black ">
       <div className="text-lg">{isOpen && children()}</div>
       <div className="flex justify-center">
         <button
