@@ -10,6 +10,7 @@ import EventIntro from "./components/synthaticEvents/EventIntro";
 import HooksMain from "./components/Hooks/HooksMain";
 import ThemeContextProvider from "./components/Context/ThemeContextProvider";
 import AuthContextProvider from "./components/Context/AuthContextProvider";
+import UseEffectIntro from "./components/UseEffectHook/UseEffectIntro";
 
 const App = () => {
   return (
@@ -47,7 +48,7 @@ const App = () => {
           {/* <MapIntro/> */}
 
           {/* Assignments  */}
-          <AssignmentMain />
+          {/* <AssignmentMain /> */}
 
           {/* EventsHandling */}
           {/* <EventsIntro/> */}
@@ -57,6 +58,8 @@ const App = () => {
 
           {/* More Hooks  */}
           {/* <HooksMain /> */}
+
+          <UseEffectIntro/>
         </div>
       </ThemeContextProvider>
     </AuthContextProvider>
